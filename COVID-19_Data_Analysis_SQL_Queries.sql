@@ -76,7 +76,7 @@ JOIN PortfolioProject..CovidVaccinations vac
 	WHERE dea.continent is not null
 	ORDER BY 2,3;
 
-
+    
 	--USE CTE
 
 WITH PopvsVac (Continent, Location, Date, Population, new_vaccinations, RollingPeopleVaccinated)
